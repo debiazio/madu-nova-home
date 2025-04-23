@@ -24,25 +24,66 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
+      "slider-layout#home-banner",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
     ]
   },
-  "flex-layout.row#1-desktop": {
+  "slider-layout#home-banner": {
     "children": [
-      "rich-text#notification-bar",
-      "flex-layout.col#spacer",
-      "flex-layout.col#tel",
-      "flex-layout.col#whatsapp",
-      "flex-layout.col#email"
+      "notification.bar#home",
+      "notification.bar#home1",
+      "notification.bar#home2",
+      "notification.bar#home3"
     ],
     "props": {
+      "blockClass": "banner-home",
       "fullWidth": true,
-      "blockClass": "notification",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "autoplay": {
+        "timeout": 1000,
+        "stopOnHover": false
+      },
+      "showNavigationArrows": "never",
+      "showNavigationDots": "never",
+      "infinite": true
+      
     }
   },
+  "notification.bar#home": {
+    "props": {
+      "content": "CONFIRA A FEIRA HOSPITALAR"
+    }
+  },
+  "notification.bar#home1": {
+    "props": {
+      "content": "A MAIOR LINHA DE MOBILIÁRIO TÉCNICO DO MUNDO"
+    }
+  },
+  "notification.bar#home2": {
+    "props": {
+      "content": "CONFIRA A FEIRA HOSPITALAR"
+    }
+  },
+  "notification.bar#home3": {
+    "props": {
+      "content": "A MAIOR LINHA DE MOBILIÁRIO TÉCNICO DO MUNDO"
+    }
+  },
+  // "flex-layout.row#1-desktop": {
+  //   "children": [
+  //     "rich-text#notification-bar",
+  //     "flex-layout.col#spacer",
+  //     "flex-layout.col#tel",
+  //     "flex-layout.col#whatsapp",
+  //     "flex-layout.col#email"
+  //   ],
+  //   "props": {
+  //     "fullWidth": true,
+  //     "blockClass": "notification",
+  //     "preventHorizontalStretch": true
+  //   }
+  // },
   "rich-text#notification-bar": {
     "props": {
       "text": "A maior linha de mobiliário técnico do mundo!",
@@ -207,7 +248,7 @@
       "sticky-layout#2-mobile"
     ]
   },
-  "flex-layout.row#1-mobile":{
+  "flex-layout.row#1-mobile": {
     "props": {
       "fullWidth": true,
       "blockClass": "mobile-notification-bar"
@@ -216,7 +257,6 @@
       "rich-text#notification-bar"
     ]
   },
-
   "sticky-layout#2-mobile": {
     "children": [
       "flex-layout.row#2-mobile",
@@ -237,7 +277,7 @@
   },
   "flex-layout.row#3-mobile": {
     "children": [
-      "login",      
+      "login",
       "minicart.v2",
       "drawer"
     ],
