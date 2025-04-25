@@ -24,7 +24,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "slider-layout#home-banner",
+      "notification.bar#home",
+      // "slider-layout#home-banner",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
     ]
@@ -50,11 +51,13 @@
       
     }
   },
-  "notification.bar#home": {
-    "props": {
-      "content": "CONFIRA A FEIRA HOSPITALAR"
-    }
-  },
+"notification.bar#home": {
+  "props": {
+    "blockClass": "notification-bar",
+    "content": "<span>CONFIRA A FEIRA HOSPITALAR</span>"
+  }
+},
+
   "notification.bar#home1": {
     "props": {
       "content": "A MAIOR LINHA DE MOBILIÁRIO TÉCNICO DO MUNDO"

@@ -1,5 +1,7 @@
 
-
+.notificationBarInner--notification-bar{
+  background-color: #494a4d;
+}
 
 /* TOPO */
 .container {
