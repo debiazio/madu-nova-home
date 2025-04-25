@@ -24,55 +24,12 @@
   },
   "header-layout.desktop": {
     "children": [
-      "notification.bar#home",
-      // "slider-layout#home-banner",
+      "bannerroll",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
     ]
   },
-  "slider-layout#home-banner": {
-    "children": [
-      "notification.bar#home",
-      "notification.bar#home1",
-      "notification.bar#home2",
-      "notification.bar#home3"
-    ],
-    "props": {
-      "blockClass": "banner-home",
-      "fullWidth": true,
-      "preventHorizontalStretch": true,
-      "autoplay": {
-        "timeout": 1000,
-        "stopOnHover": false
-      },
-      "showNavigationArrows": "never",
-      "showNavigationDots": "never",
-      "infinite": true
-      
-    }
-  },
-"notification.bar#home": {
-  "props": {
-    "blockClass": "notification-bar",
-    "content": "<span>CONFIRA A FEIRA HOSPITALAR</span>"
-  }
-},
-
-  "notification.bar#home1": {
-    "props": {
-      "content": "A MAIOR LINHA DE MOBILIÁRIO TÉCNICO DO MUNDO"
-    }
-  },
-  "notification.bar#home2": {
-    "props": {
-      "content": "CONFIRA A FEIRA HOSPITALAR"
-    }
-  },
-  "notification.bar#home3": {
-    "props": {
-      "content": "A MAIOR LINHA DE MOBILIÁRIO TÉCNICO DO MUNDO"
-    }
-  },
+  
   // "flex-layout.row#1-desktop": {
   //   "children": [
   //     "rich-text#notification-bar",

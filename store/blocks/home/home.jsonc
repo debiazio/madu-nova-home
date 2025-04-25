@@ -2,11 +2,13 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#background-novahome",
+      "flex-layout.row#titulo-novahome",
+
       // "responsive-layout.desktop#video",
       // "responsive-layout.mobile#video",
       "responsive-layout.desktop#categorias",
       "responsive-layout.mobile#categorias",
-      
+
       "__fold__",
       "flex-layout.row#madu-one",
       "flex-layout.row#madu-extra",
@@ -39,6 +41,20 @@
       "loop": true
     }
   },
+  "flex-layout.row#titulo-novahome":{
+    "props": {
+      "blockClass": "titulo-novohome"
+    },
+    "children": [
+      "rich-text#madu-you"
+    ]
+  },
+  "rich-text#madu-you":{
+    "props": {
+      "text": "WE **WANT** YOU MAD"
+    }
+  },
+
   "responsive-layout.desktop#video": {
     "children": [
       "video#video-banner-home-1"
@@ -74,7 +90,7 @@
   },
   "responsive-layout.mobile#categorias":{
     "children": [
-      "flex-layout.row#categorias-mobile"    
+      "flex-layout.row#categorias-mobile"
     ]
   },
   "flex-layout.row#categorias": {
@@ -285,7 +301,7 @@
       "blockClass": "titulo-categorias"
     }
   },
-  // CATEGORIAS MOBILE 
+  // CATEGORIAS MOBILE
   "flex-layout.row#categorias-mobile":{
     "props": {
       "blockClass": "categorias-mobile"
