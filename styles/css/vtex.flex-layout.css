@@ -21,13 +21,15 @@
 
 .flexRow--topbar {
   display: flex;
-  background-color: white;
+  background-color: transparent;
   flex-direction: row;
   align-items: center;
   padding: 8px 0 6px;
-  border-bottom: 1px solid #DFDFDF;
+  /* border-bottom: 1px solid #DFDFDF; */
   justify-content: center;
   margin: 0;
+  position: static;
+  z-index: 1;
 }
 
 .flexCol--coluna-tel-notif,
@@ -50,7 +52,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  border-bottom: 1px solid #DFDFDF;
+  /* border-bottom: 1px solid #DFDFDF; */
 }
 
 .flexColChild--topbar-right {
@@ -473,6 +475,13 @@
   margin-top: 20px;
 }
 
+.flexRow--main-header{
+  background-color: transparent;
+}
+
+.flexRow--background-novaHome{
+  margin-top: -169px;
+}
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {

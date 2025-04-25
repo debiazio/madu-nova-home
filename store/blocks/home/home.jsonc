@@ -1,8 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#video",
-      "responsive-layout.mobile#video",
+      "flex-layout.row#background-novahome",
+      // "responsive-layout.desktop#video",
+      // "responsive-layout.mobile#video",
       "responsive-layout.desktop#categorias",
       "responsive-layout.mobile#categorias",
       
@@ -18,6 +19,24 @@
     ],
     "parent": {
       "header": "header"
+    }
+  },
+  "flex-layout.row#background-novahome":{
+    "props": {
+      "blockClass": "background-novaHome",
+      "fullWidth": true
+    },
+    "children": [
+      "video#video-background-nova-home"
+    ]
+  },
+  "video#video-background-nova-home": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/lopping_Home-1.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "100%",
+      "loop": true
     }
   },
   "responsive-layout.desktop#video": {
