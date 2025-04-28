@@ -1,3 +1,66 @@
+/* .flexRow--videoOverlay {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 100%;
+  height: 87%;
+  background: #80808066,
+  #80808066,
+  #80808066,
+  #8080801f;
+  pointer-events: none;
+} */
+
+.flexRow--conteiner-dobra-color-y-w {
+  margin-top: 180px
+}
+
+.flexRowContent--conteiner-dobra-color-y-w {
+  position: relative;
+  top: -100px;
+}
+
+.flexRow--sessao-nova-home {
+  background: linear-gradient(to bottom, #000000, #000000, #000000, #3d3d3d, #ffffff, #ffffff, #ffffff);
+}
+
+.flexRowContent--conteiner-imagens-nova-home {
+  margin-top: -400px;
+  position: relative;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .flexRow--conteiner-color-y-w {
+  margin-bottom: -500px;
+} */
+
+.flexRowContent--conteiner-color-y-w {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  top: 240px;
+  margin-left: 150px;
+}
+
+.flexRow--titulo-novohome {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  top: 47px;
+  height: 99%;
+  width: 100%;
+}
+
+.flexRowContent--titulo-novohome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* TOPO */
 .flexRow--notification {
   background: #181818;
@@ -475,12 +538,19 @@
   margin-top: 20px;
 }
 
-.flexRow--main-header{
+.flexRow--main-header {
   background-color: transparent;
 }
 
-.flexRow--background-novaHome{
+
+.flexRow--background-novaHome {
   margin-top: -169px;
+
+}
+
+.flexRowContent--background-novaHome {
+  display: flex;
+  flex-direction: column;
 }
 
 /* MOBILE */
@@ -489,44 +559,44 @@
     width: 10% !important;
   }
 
-  .flexRowContent--linha-secundaria-metodos-pgto{
-    display: flex!important;
+  .flexRowContent--linha-secundaria-metodos-pgto {
+    display: flex !important;
   }
 
-  .flexRowContent--content-institucionais{
+  .flexRowContent--content-institucionais {
     padding: 20px;
   }
 
-  .flexRowContent--avaliacao-estrelas{
+  .flexRowContent--avaliacao-estrelas {
     display: flex;
   }
 
-  .flexColChild--footer-2-desktop-1{
+  .flexColChild--footer-2-desktop-1 {
     margin-top: 20px;
   }
 
 
-  .link--link-grupo-mfm{
+  .link--link-grupo-mfm {
     margin-top: 30px;
   }
 
-  .flexCol--footer-2-desktop-1{
+  .flexCol--footer-2-desktop-1 {
     margin-left: 15px;
   }
 
-  .flexRowContent--conteiner-redes-sociais{
+  .flexRowContent--conteiner-redes-sociais {
     display: flex;
   }
 
-  .flexCol--footer-2-desktop{
+  .flexCol--footer-2-desktop {
     margin-left: 15px;
   }
 
-  .flexRowContent--categorias{
+  .flexRowContent--categorias {
     flex-direction: column;
   }
 
-  .flexRow--add-to-cart-summary{
+  .flexRow--add-to-cart-summary {
     display: none;
   }
 

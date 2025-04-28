@@ -1,14 +1,11 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#background-novahome",
-      "flex-layout.row#titulo-novahome",
-
+      "flex-layout.row#first-session-nova-home",
       // "responsive-layout.desktop#video",
       // "responsive-layout.mobile#video",
       "responsive-layout.desktop#categorias",
       "responsive-layout.mobile#categorias",
-
       "__fold__",
       "flex-layout.row#madu-one",
       "flex-layout.row#madu-extra",
@@ -23,17 +20,32 @@
       "header": "header"
     }
   },
-  "flex-layout.row#background-novahome":{
+  "flex-layout.row#first-session-nova-home": {
     "props": {
-      "blockClass": "background-novaHome",
-      "fullWidth": true
+      "blockClass": "sessao-nova-home",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     },
     "children": [
-      "video#video-background-nova-home"
+      "flex-layout.row#background-novahome"
+    ]
+  },
+  "flex-layout.row#background-novahome": {
+    "props": {
+      "blockClass": "background-novaHome",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "video#video-background-nova-home",
+      "flex-layout.row#overlay-cinza",
+      "flex-layout.row#titulo-novahome",
+      "flex-layout.row#imagens-nova-home"
     ]
   },
   "video#video-background-nova-home": {
     "props": {
+      "blockclass": "video-background",
       "src": "https://stermax.com.br/images_idealine/lopping_Home-1.mp4",
       "autoPlay": true,
       "width": "100%",
@@ -41,20 +53,81 @@
       "loop": true
     }
   },
-  "flex-layout.row#titulo-novahome":{
+  "flex-layout.row#overlay-cinza":{
     "props": {
-      "blockClass": "titulo-novohome"
-    },
-    "children": [
-      "rich-text#madu-you"
-    ]
-  },
-  "rich-text#madu-you":{
-    "props": {
-      "text": "WE **WANT** YOU MAD"
+      "blockClass": "videoOverlay"
     }
   },
-
+  "flex-layout.row#titulo-novahome": {
+    "props": {
+      "blockClass": "titulo-novohome",
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#madu-you",
+      "rich-text#subtitle-madu-you"
+    ]
+  },
+  "rich-text#madu-you": {
+    "props": {
+      "text": "WE **WANT** YOU MAD",
+      "blockClass": "we-want-mad"
+    }
+  },
+  "rich-text#subtitle-madu-you": {
+    "props": {
+      "text": "DESCUBRA A LIBERDADE DE CRIAR \n COMO VOCÊ NUNCA VIU",
+      "blockClass": "sub-you-mad"
+    }
+  },
+  "flex-layout.row#imagens-nova-home": {
+    "props": {
+      "blockClass": "conteiner-imagens-nova-home",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#color-your-world",
+      "flex-layout.row#dobra-color-your-world"
+    ]
+  },
+  "flex-layout.row#color-your-world": {
+    "props": {
+      "blockClass": "conteiner-color-y-w",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#color-your-world"
+    ]
+  },
+  "image#color-your-world": {
+    "props": {
+      "src": "assets/color-your-world.webp",
+      "alt": "selo Color your world",
+      "blockClass": "selo-color-y-w",
+      "width": "250px"
+    }
+  },
+  "flex-layout.row#dobra-color-your-world": {
+    "props": {
+      "blockClass": "conteiner-dobra-color-y-w",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#dobra-color-your-world"
+    ]
+  },
+  "image#dobra-color-your-world": {
+    "props": {
+      "src": "assets/Dobra Color Your World.webp",
+      "alt": "Color your world",
+      "blockClass": "imagem-color-y-w"
+    }
+  },
   "responsive-layout.desktop#video": {
     "children": [
       "video#video-banner-home-1"
@@ -83,12 +156,12 @@
       "loop": true
     }
   },
-  "responsive-layout.desktop#categorias":{
+  "responsive-layout.desktop#categorias": {
     "children": [
       "flex-layout.row#categorias"
     ]
   },
-  "responsive-layout.mobile#categorias":{
+  "responsive-layout.mobile#categorias": {
     "children": [
       "flex-layout.row#categorias-mobile"
     ]
@@ -302,7 +375,7 @@
     }
   },
   // CATEGORIAS MOBILE
-  "flex-layout.row#categorias-mobile":{
+  "flex-layout.row#categorias-mobile": {
     "props": {
       "blockClass": "categorias-mobile"
     },
@@ -315,8 +388,6 @@
       "link#link-feira-hospitalar"
     ]
   },
-
-
   // MADU ONE
   "flex-layout.row#madu-one": {
     "props": {
@@ -368,7 +439,7 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "showNavigationArrows":"always",
+      "showNavigationArrows": "always",
       "blockClass": "shelf"
     }
   },

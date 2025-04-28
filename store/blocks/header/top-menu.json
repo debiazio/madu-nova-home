@@ -21,14 +21,7 @@
       "search-bar"
     ]
   },
-  "flex-layout.col#2-desktop-col-1":{
-    "props": {
-      "blockClass": "topbar"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#top-menu"
-    ]
-  },
+
   "vtex.menu@2.x:menu#top-menu": {
     "props": {
       "blockClass": "topbar"
@@ -37,7 +30,7 @@
 
     ]
   },
-  
+
   "flex-layout.col#2-desktop-col-2":{
     "props": {
       "blockClass": ["topbar", "topbar-right"],

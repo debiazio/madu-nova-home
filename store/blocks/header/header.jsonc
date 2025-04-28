@@ -29,7 +29,7 @@
       "sticky-layout#3-desktop"
     ]
   },
-  
+
   // "flex-layout.row#1-desktop": {
   //   "children": [
   //     "rich-text#notification-bar",
@@ -190,7 +190,11 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "Buscar..."
+      "placeholder": "Buscar...",
+      "attemptPageTypeSearch": true,
+      "inputType": "text",
+      "minSearchTermLength": 4,
+      "blockClass": "barra-pesquisa"
     }
   },
   "autocomplete-result-list.v2": {

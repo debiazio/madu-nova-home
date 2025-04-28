@@ -1,3 +1,53 @@
+.paragraph--we-want-mad :global(.vtex-rich-text-0-x-strong--we-want-mad) {
+  color: white;
+  animation: ledPulseWhite 2.5s infinite;
+  text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff;
+}
+
+/* Animação com alcance até 10px */
+@keyframes ledPulseWhite {
+  0%, 100% {
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff;
+  }
+  50% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #fff;
+  }
+}
+
+
+
+
+.container--we-want-mad {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--we-want-mad {
+  color: white;
+  font-size: 100px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.paragraph--sub-you-mad {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+
 /* TOPO */
 .paragraph--texto-notification-bar {
   font-size: 12px;
@@ -283,15 +333,15 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .wrapper--texto-intitucionais{
+  .wrapper--texto-intitucionais {
     width: 100%;
   }
-  
+
   .strong--texto-intitucionais {
     font-size: 15px;
   }
 
-  .wrapper--texto-modal-modal{
+  .wrapper--texto-modal-modal {
     padding: 50px;
   }
 

@@ -1,7 +1,9 @@
 
-.notificationBarInner--notification-bar{
-  background-color: #494a4d;
-}
+/* .imageElement--imagem-color-y-w{
+  background: linear-gradient(to bottom, #808080, #ffffff);
+} */
+
+
 
 /* TOPO */
 .container {
@@ -331,7 +333,7 @@
   opacity: 1;
   /* border-color: #D6C0B0; */
   border: none;
-  
+
 }
 
 .skuSelectorItem--selected.skuSelectorItemImage {
@@ -672,7 +674,7 @@
 
   /* CATEGORIAS HOME  */
   /* .imageElement--imagem-categorias {
-    width: 75px;  
+    width: 75px;
   } */
 
   /* header  */
