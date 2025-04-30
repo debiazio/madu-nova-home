@@ -1,3 +1,10 @@
+.flexColChild--linha-textos-second-session{
+  display: flex;
+  justify-content: center;
+  background-color: #fcfcff;
+}
+
+
 /* .flexRow--videoOverlay {
   position: absolute;
   top: 46px;
@@ -21,7 +28,7 @@
 }
 
 .flexRow--sessao-nova-home {
-  background: linear-gradient(to bottom, #000000, #000000, #000000, #3d3d3d, #ffffff, #ffffff, #ffffff);
+  background: linear-gradient(to bottom, #000000, #000000, #000000, #3d3d3d, #fcfcff, #fcfcff, #fcfcff);
 }
 
 .flexRowContent--conteiner-imagens-nova-home {

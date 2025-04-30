@@ -1,3 +1,28 @@
+.wrapper--textos-second-session{
+  text-align: center;
+}
+
+.paragraph--textos-second-session{
+  margin: 0;
+}
+
+.wrapper--infinity{
+  font-size: 105px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #FF3ED1, #00DEFC, #F5C242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.wrapper--combinacoes{
+  color: #D7D7D7;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
 .paragraph--we-want-mad :global(.vtex-rich-text-0-x-strong--we-want-mad) {
   color: white;
   animation: ledPulseWhite 2.5s infinite;
