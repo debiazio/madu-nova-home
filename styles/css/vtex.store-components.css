@@ -3,7 +3,9 @@
   background: linear-gradient(to bottom, #808080, #ffffff);
 } */
 
-
+.imageElement--imagem-we-dare{
+  width: 780px;
+}
 
 /* TOPO */
 .container {

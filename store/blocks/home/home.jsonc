@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#first-session-nova-home",
       "flex-layout.row#second-session-nova-home",
+      "flex-layout.row#third-session-nova-home",
       "responsive-layout.desktop#categorias",
       "responsive-layout.mobile#categorias",
       "__fold__",
@@ -19,6 +20,7 @@
       "header": "header"
     }
   },
+
   // PRIMEIRA SESSÃO NOVA HOME
   "flex-layout.row#first-session-nova-home": {
     "props": {
@@ -149,23 +151,94 @@
       "image#infinito-animacao"
     ]
   },
-  "rich-text#infinity":{
+  "rich-text#infinity": {
     "props": {
       "text": "**INFINITY AND BEYOND**",
-      "blockClass": ["textos-second-session", "infinity"]
+      "blockClass": [
+        "textos-second-session",
+        "infinity"
+      ]
     }
   },
-  "rich-text#combinacoes":{
+  "rich-text#combinacoes": {
     "props": {
       "text": "**LIBERDADE** PARA CRIAR **+** PODER DE **ESCOLHA =**\n **COMBINAÇÕES ILIMITADAS**",
-      "blockClass": ["textos-second-session", "combinacoes"]
+      "blockClass": [
+        "textos-second-session",
+        "combinacoes"
+      ]
     }
   },
-  "image#infinito-animacao":{
+  "image#infinito-animacao": {
     "props": {
       "src": "assets/madu-infinito.gif"
     }
   },
+  // TERCEIRA SESSÃO - NOVA HOME
+  "flex-layout.row#third-session-nova-home":{
+    "props": {
+      "blockClass": "we-dare-defferent",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-we-dare",
+      "flex-layout.col#texto-we-dare"
+    ]
+  },
+  "flex-layout.col#imagem-we-dare":{
+    "props": {
+      "blockClass": "coluna-imagem-we-dare",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#carrinhos-we-dare"
+    ]
+  },
+  "image#carrinhos-we-dare":{
+    "props": {
+      "blockClass": "imagem-we-dare",
+      "src": "assets/imagens-campanha-carnaval 1.webp",
+      "alt": "Imagem de 3 carrinhos"
+    }
+  },
+
+"flex-layout.col#texto-we-dare":{
+  "props": {
+    "blockClass": "coluna-texto-we-dare",
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "rich-text#titulo-we-dare",
+    "rich-text#texto-we-dare",
+    "rich-text#texto-we-dare2",
+    "rich-text#conteudo-we-dare"
+  ]
+},
+"rich-text#titulo-we-dare":{
+  "props": {
+    "text": "**we dare to be\n different**",
+    "blockClass": "titulo-we-dare"
+  }
+},
+"rich-text#texto-we-dare2":{
+  "props": {
+    "text": "**different**",
+    "blockClass": ["titulo-we-dare", "different"]
+  }
+},
+"rich-text#texto-we-dare":{
+  "props": {
+    "text": "transforme e inove",
+    "blockClass": "subtitulo-texto-we-dare"
+  }
+},
+"rich-text#conteudo-we-dare":{
+  "props": {
+    "text": "Com MAD.U, a versatilidade não tem\n limites. Adicione gavetas, puxadores,\n prateleiras e rodízios para criar um\n móvel inovador e flexível.\n\n**···**"
+  }
+},
+
 
   "responsive-layout.desktop#categorias": {
     "children": [

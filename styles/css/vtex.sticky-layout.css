@@ -2,6 +2,10 @@
     background:transparent;
 }
 
+.wrapper--stuck{
+  background-color: grey;
+}
+
 /* .wrapper--sticky-header{
   display: flex;
   flex-direction: row;

@@ -1,4 +1,16 @@
-.flexColChild--linha-textos-second-session{
+.flexCol--coluna-texto-we-dare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRowContent--we-dare-defferent {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #fcfcff, #FFFFFF);
+}
+
+.flexColChild--linha-textos-second-session {
   display: flex;
   justify-content: center;
   background-color: #fcfcff;
