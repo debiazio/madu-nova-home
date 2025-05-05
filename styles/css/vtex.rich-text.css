@@ -1,11 +1,79 @@
+.paragraph--conteudo-power-meets,
+.paragraph--conteudo-change-constant,
+.paragraph--subtitulo-change-constant,
+.wrapper--conteudo-power-meets,
+.wrapper--conteudo-change-constant{
+  max-width: 450px!important;
+}
+
+
 .paragraph--titulo-we-dare,
-.paragraph--subtitulo-texto-we-dare{
+.paragraph--titulo-power-meets,
+.paragraph--titulo-change-constant{
+  font-size: 60px;
+  font-weight: bold;
+  color: #767676;
+  margin: 0;
   text-transform: uppercase;
 }
 
-.paragraph--different{
-  
+.paragraph--subtitulo-texto-we-dare,
+.paragraph--subtitulo-power-meets,
+.paragraph--subtitulo-change-constant{
+  text-transform: uppercase;
 }
+
+.strong--titulo-we-dare{
+  color: #F545D3;
+}
+
+.strong--titulo-power-meets{
+  color: #42C8F6;
+}
+
+.strong--titulo-change-constant{
+  color: #74D4AE;
+}
+
+
+.wrapper--subtitulo-texto-we-dare,
+.wrapper--subtitulo-change-constant,
+.wrapper--subtitulo-power-meets{
+  color: #767676;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.wrapper--conteudo-we-dare,
+.wrapper--conteudo-change-constant,
+.wrapper--conteudo-power-meets{
+  font-size: 22px;
+  color: #767676;
+  font-weight: 400;
+}
+
+.strong--conteudo-we-dare{
+  color: #F545D3;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.strong--conteudo-power-meets{
+  color: #42C8F6;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.strong--conteudo-change-constant{
+  color: #74D4AE;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+
 
 .wrapper--textos-second-session{
   text-align: center;

@@ -1,4 +1,30 @@
-.flexCol--coluna-texto-we-dare {
+
+
+.flexCol--coluna-texto-power-meets,
+.flexCol--coluna-texto-change-constant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexCol--coluna-texto-we-dare,
+.flexCol--coluna-texto-power-meets,
+.flexCol--coluna-texto-change-constant {
+  margin-left: 100px;
+}
+
+.flexRowContent--container-four-session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--container-four-session {
+  background: linear-gradient(to bottom, #FFFFFF, #fcfcff);
+}
+
+.flexCol--coluna-texto-we-dare
+ {
   display: flex;
   flex-direction: column;
   justify-content: center;

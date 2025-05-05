@@ -3,8 +3,14 @@
   background: linear-gradient(to bottom, #808080, #ffffff);
 } */
 
-.imageElement--imagem-we-dare{
+.imageElement--imagem-we-dare,
+
+.imageElement--imagem-power-meets{
   width: 780px;
+}
+
+.imageElement--imagem-change-constant{
+  width: 700px;
 }
 
 /* TOPO */

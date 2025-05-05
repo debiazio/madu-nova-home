@@ -4,6 +4,7 @@
       "flex-layout.row#first-session-nova-home",
       "flex-layout.row#second-session-nova-home",
       "flex-layout.row#third-session-nova-home",
+      "flex-layout.row#four-session-nova-home",
       "responsive-layout.desktop#categorias",
       "responsive-layout.mobile#categorias",
       "__fold__",
@@ -20,7 +21,6 @@
       "header": "header"
     }
   },
-
   // PRIMEIRA SESSÃO NOVA HOME
   "flex-layout.row#first-session-nova-home": {
     "props": {
@@ -175,7 +175,7 @@
     }
   },
   // TERCEIRA SESSÃO - NOVA HOME
-  "flex-layout.row#third-session-nova-home":{
+  "flex-layout.row#third-session-nova-home": {
     "props": {
       "blockClass": "we-dare-defferent",
       "fullWidth": true,
@@ -186,7 +186,7 @@
       "flex-layout.col#texto-we-dare"
     ]
   },
-  "flex-layout.col#imagem-we-dare":{
+  "flex-layout.col#imagem-we-dare": {
     "props": {
       "blockClass": "coluna-imagem-we-dare",
       "preventVerticalStretch": true
@@ -195,49 +195,170 @@
       "image#carrinhos-we-dare"
     ]
   },
-  "image#carrinhos-we-dare":{
+  "image#carrinhos-we-dare": {
     "props": {
       "blockClass": "imagem-we-dare",
       "src": "assets/imagens-campanha-carnaval 1.webp",
       "alt": "Imagem de 3 carrinhos"
     }
   },
-
-"flex-layout.col#texto-we-dare":{
-  "props": {
-    "blockClass": "coluna-texto-we-dare",
-    "preventVerticalStretch": true
+  "flex-layout.col#texto-we-dare": {
+    "props": {
+      "blockClass": "coluna-texto-we-dare",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-we-dare",
+      "rich-text#texto-we-dare",
+      "rich-text#conteudo-we-dare"
+    ]
   },
-  "children": [
-    "rich-text#titulo-we-dare",
-    "rich-text#texto-we-dare",
-    "rich-text#texto-we-dare2",
-    "rich-text#conteudo-we-dare"
-  ]
-},
-"rich-text#titulo-we-dare":{
-  "props": {
-    "text": "**we dare to be\n different**",
-    "blockClass": "titulo-we-dare"
-  }
-},
-"rich-text#texto-we-dare2":{
-  "props": {
-    "text": "**different**",
-    "blockClass": ["titulo-we-dare", "different"]
-  }
-},
-"rich-text#texto-we-dare":{
-  "props": {
-    "text": "transforme e inove",
-    "blockClass": "subtitulo-texto-we-dare"
-  }
-},
-"rich-text#conteudo-we-dare":{
-  "props": {
-    "text": "Com MAD.U, a versatilidade não tem\n limites. Adicione gavetas, puxadores,\n prateleiras e rodízios para criar um\n móvel inovador e flexível.\n\n**···**"
-  }
-},
+  "rich-text#titulo-we-dare": {
+    "props": {
+      "text": "we dare to be\n**different**",
+      "blockClass": "titulo-we-dare"
+    }
+  },
+  "rich-text#texto-we-dare": {
+    "props": {
+      "text": "transforme e inove",
+      "blockClass": "subtitulo-texto-we-dare"
+    }
+  },
+  "rich-text#conteudo-we-dare": {
+    "props": {
+      "blockClass": "conteudo-we-dare",
+      "text": "Com MAD.U, a versatilidade não tem\n limites. Adicione gavetas, puxadores,\n prateleiras e rodízios para criar um\n móvel inovador e flexível.\n\n**···**"
+    }
+  },
+  // QUARTA SEÇÃO -
+  "flex-layout.row#four-session-nova-home": {
+    "props": {
+      "blockClass": "container-four-session",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#when-power-meets-design",
+      "flex-layout.row#change-constant"
+    ]
+  },
+  "flex-layout.row#when-power-meets-design":{
+    "props": {
+      "blockClass": "linha-when-power",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-power-meets",
+      "flex-layout.col#texto-power-meets"
+    ]
+  },
+  "flex-layout.col#imagem-power-meets":{
+    "props": {
+      "blockClass": "coluna-imagem-power-meets",
+      "preventVerticalStretch": true
+
+    },
+    "children": [
+      "image#power-meets"
+    ]
+  },
+  "image#power-meets": {
+    "props": {
+      "blockClass": "imagem-power-meets",
+      "src": "assets/rodizio.webp",
+      "alt": "Imagem do rodízio"
+    }
+  },
+  "flex-layout.col#texto-power-meets":{
+    "props": {
+      "blockClass": "coluna-texto-power-meets",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-power-meets",
+      "rich-text#subtitulo-power-meets",
+      "rich-text#conteudo-power-meets"
+    ]
+  },
+  "rich-text#titulo-power-meets":{
+    "props": {
+      "text": "when power \n**meets design**",
+      "blockClass": "titulo-power-meets"
+    }
+  },
+  "rich-text#subtitulo-power-meets":{
+    "props": {
+      "text": "design inteligente como você \nnunca viu",
+      "blockClass": "subtitulo-power-meets"
+    }
+  },
+  "rich-text#conteudo-power-meets":{
+    "props": {
+      "text": "Produtos meticulosamente elaborados para abranger princípios ergonômicos, praticidade e funcionalidade.\n\nSão infinitas possibilidades para seu estilo único. \n\n**...**",
+      "blockClass": "conteudo-power-meets"
+    }
+  },
+
+
+  "flex-layout.row#change-constant":{
+    "props": {
+      "blockClass": "linha-change-constant",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-change-constant",
+      "flex-layout.col#texto-change-constant"
+    ]
+  },
+  "flex-layout.col#imagem-change-constant":{
+    "props": {
+      "blockClass": "coluna-imagem-change-constant",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#color-y-w"
+    ]
+  },
+  "image#color-y-w":{
+    "props": {
+      "blockClass": "imagem-change-constant",
+      "src": "assets/color-your-world-maior.webp",
+      "alt": "Imagem color your world"
+    }
+  },
+  "flex-layout.col#texto-change-constant":{
+    "props": {
+      "blockClass": "coluna-texto-change-constant",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-change-constant",
+      "rich-text#subtitulo-change-constant",
+      "rich-text#conteudo-change-constant"
+    ]
+  },
+  "rich-text#titulo-change-constant":{
+    "props": {
+      "text": "change is a \n**constant**",
+      "blockClass": "titulo-change-constant"
+    }
+  },
+  "rich-text#subtitulo-change-constant":{
+    "props": {
+      "text": "se reinventar está na nossa essência.",
+      "blockClass": "subtitulo-change-constant"
+    }
+  },
+  "rich-text#conteudo-change-constant":{
+    "props": {
+      "text": "Milhões de combinações para criar o móvel dos seus sonhos, mais liberdade e infinitas possibilisades. Transforme, adicione acessórios, troque cores e formatos quando quiser. \n**...**",
+      "blockClass": "conteudo-change-constant"
+    }
+  },
+
+
 
 
   "responsive-layout.desktop#categorias": {
