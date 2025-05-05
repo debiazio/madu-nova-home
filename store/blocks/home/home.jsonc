@@ -5,6 +5,7 @@
       "flex-layout.row#second-session-nova-home",
       "flex-layout.row#third-session-nova-home",
       "flex-layout.row#four-session-nova-home",
+      "flex-layout.row#shop-by-category",
       "responsive-layout.desktop#categorias",
       "responsive-layout.mobile#categorias",
       "__fold__",
@@ -243,7 +244,7 @@
       "flex-layout.row#change-constant"
     ]
   },
-  "flex-layout.row#when-power-meets-design":{
+  "flex-layout.row#when-power-meets-design": {
     "props": {
       "blockClass": "linha-when-power",
       "preventHorizontalStretch": true
@@ -253,11 +254,10 @@
       "flex-layout.col#texto-power-meets"
     ]
   },
-  "flex-layout.col#imagem-power-meets":{
+  "flex-layout.col#imagem-power-meets": {
     "props": {
       "blockClass": "coluna-imagem-power-meets",
       "preventVerticalStretch": true
-
     },
     "children": [
       "image#power-meets"
@@ -270,7 +270,7 @@
       "alt": "Imagem do rodízio"
     }
   },
-  "flex-layout.col#texto-power-meets":{
+  "flex-layout.col#texto-power-meets": {
     "props": {
       "blockClass": "coluna-texto-power-meets",
       "preventVerticalStretch": true
@@ -281,27 +281,145 @@
       "rich-text#conteudo-power-meets"
     ]
   },
-  "rich-text#titulo-power-meets":{
+  "rich-text#titulo-power-meets": {
     "props": {
       "text": "when power \n**meets design**",
       "blockClass": "titulo-power-meets"
     }
   },
-  "rich-text#subtitulo-power-meets":{
+  "rich-text#subtitulo-power-meets": {
     "props": {
       "text": "design inteligente como você \nnunca viu",
       "blockClass": "subtitulo-power-meets"
     }
   },
-  "rich-text#conteudo-power-meets":{
+  "rich-text#conteudo-power-meets": {
     "props": {
       "text": "Produtos meticulosamente elaborados para abranger princípios ergonômicos, praticidade e funcionalidade.\n\nSão infinitas possibilidades para seu estilo único. \n\n**...**",
       "blockClass": "conteudo-power-meets"
     }
   },
+  // SHOP BY CATEGORY
+  "flex-layout.row#shop-by-category": {
+    "props": {
+      "blockClass": "compre-por-produto"
+    },
+    "children": [
+      "link#carrinhos-nova-home",
+      "link#armarios-nova-home",
+      "link#estantes-nova-home",
+      "link#acessorios-nova-home",
+      "link#modulos-nova-home"
+    ]
+  },
+  "link#carrinhos-nova-home": {
+    "props": {
+      "blockClass": "link-compre-por-produtos",
+      "href": "#"
+    },
+    "children": [
+      "image#carrinhos-compre-por",
+      "rich-text#label-carrinhos"
+    ]
+  },
+  "image#carrinhos-compre-por": {
+    "props": {
+      "src": "assets/Categorias MADU_Prancheta 1.webp"
+    }
+  },
+  "rich-text#label-carrinhos": {
+    "props": {
+      "text": "carrinhos",
+      "blockClass": "label-produtos"
+    }
+  },
+  "link#armarios-nova-home": {
+    "props": {
+      "blockClass": "link-compre-por-produtos",
+      "href": "#"
+    },
+    "children": [
+      "image#armarios-compre-por",
+      "rich-text#label-armarios"
+    ]
+  },
+  "image#armarios-compre-por": {
+    "props": {
+      "src": "assets/Categorias MADU white-02 1.webp"
+    }
+  },
+  "rich-text#label-armarios": {
+    "props": {
+      "text": "armários",
+      "blockClass": "label-produtos"
+    }
+  },
+  "link#estantes-nova-home": {
+    "props": {
+      "blockClass": "link-compre-por-produtos",
+      "href": "#"
+    },
+    "children": [
+      "image#estantes-compre-por",
+      "rich-text#label-estantes"
+    ]
+  },
+  "image#estantes-compre-por": {
+    "props": {
+      "src": "assets/Categorias MADU-03.webp"
+    }
+  },
+  "rich-text#label-estantes": {
+    "props": {
+      "text": "estantes",
+      "blockClass": "label-produtos"
+    }
+  },
+  "link#acessorios-nova-home": {
+    "props": {
+      "blockClass": "link-compre-por-produtos",
+      "href": "#"
+    },
+    "children": [
+      "image#acessorios-compre-por",
+      "rich-text#label-acessorios"
+    ]
+  },
+  "image#acessorios-compre-por": {
+    "props": {
+      "src": "assets/Categorias MADU-03.webp"
+    }
+  },
+  "rich-text#label-acessorios": {
+    "props": {
+      "text": "acessórios",
+      "blockClass": "label-produtos"
+    }
+  },
+  "link#modulos-nova-home": {
+    "props": {
+      "blockClass": "link-compre-por-produtos",
+      "href": "#"
+    },
+    "children": [
+      "image#modulos-compre-por",
+      "rich-text#label-modulos"
+    ]
+  },
+  "image#modulos-compre-por": {
+    "props": {
+      "src": "assets/Categorias MADU-05.webp"
+    }
+  },
+  "rich-text#label-modulos": {
+    "props": {
+      "text": "módulos",
+      "blockClass": "label-produtos"
+    }
+  },
 
 
-  "flex-layout.row#change-constant":{
+  "flex-layout.row#change-constant": {
     "props": {
       "blockClass": "linha-change-constant",
       "preventHorizontalStretch": true,
@@ -312,7 +430,7 @@
       "flex-layout.col#texto-change-constant"
     ]
   },
-  "flex-layout.col#imagem-change-constant":{
+  "flex-layout.col#imagem-change-constant": {
     "props": {
       "blockClass": "coluna-imagem-change-constant",
       "preventVerticalStretch": true
@@ -321,14 +439,14 @@
       "image#color-y-w"
     ]
   },
-  "image#color-y-w":{
+  "image#color-y-w": {
     "props": {
       "blockClass": "imagem-change-constant",
       "src": "assets/color-your-world-maior.webp",
       "alt": "Imagem color your world"
     }
   },
-  "flex-layout.col#texto-change-constant":{
+  "flex-layout.col#texto-change-constant": {
     "props": {
       "blockClass": "coluna-texto-change-constant",
       "preventVerticalStretch": true
@@ -336,31 +454,43 @@
     "children": [
       "rich-text#titulo-change-constant",
       "rich-text#subtitulo-change-constant",
-      "rich-text#conteudo-change-constant"
+      "rich-text#conteudo-change-constant",
+      "flex-layout.row#botao-conheca"
     ]
   },
-  "rich-text#titulo-change-constant":{
+  "rich-text#titulo-change-constant": {
     "props": {
       "text": "change is a \n**constant**",
       "blockClass": "titulo-change-constant"
     }
   },
-  "rich-text#subtitulo-change-constant":{
+  "rich-text#subtitulo-change-constant": {
     "props": {
       "text": "se reinventar está na nossa essência.",
       "blockClass": "subtitulo-change-constant"
     }
   },
-  "rich-text#conteudo-change-constant":{
+  "rich-text#conteudo-change-constant": {
     "props": {
       "text": "Milhões de combinações para criar o móvel dos seus sonhos, mais liberdade e infinitas possibilisades. Transforme, adicione acessórios, troque cores e formatos quando quiser. \n**...**",
       "blockClass": "conteudo-change-constant"
     }
   },
-
-
-
-
+  "flex-layout.row#botao-conheca": {
+    "props": {
+      "blockClass": "botao-conheca"
+    },
+    "children": [
+      "link#nossas-linhas"
+    ]
+  },
+  "link#nossas-linhas": {
+    "props": {
+      "href": "#",
+      "label": "conheça nossos módulos",
+      "blockClass": "botao-know-modules"
+    }
+  },
   "responsive-layout.desktop#categorias": {
     "children": [
       "flex-layout.row#categorias"

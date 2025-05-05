@@ -10,7 +10,9 @@
 }
 
 .imageElement--imagem-change-constant{
-  width: 700px;
+  width: 400px;
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
 /* TOPO */
