@@ -1,4 +1,18 @@
-.link--botao-know-modules{
+.link--link-compre-por-produtos {
+  background-color: #D6D6D6;
+  margin: 5px;
+  border-radius: 35px;
+}
+
+.link--link-compre-por-produtos:hover {
+  background: linear-gradient(to bottom, #F5C242, #FF3ED1);
+}
+
+.link--link-compre-por-produtos{
+  text-decoration: none;
+}
+
+.link--botao-know-modules {
   text-decoration: none;
   color: #767676;
   text-transform: uppercase;
@@ -8,51 +22,53 @@
   width: 100%;
 }
 
-.label--botao-know-modules{
+.label--botao-know-modules {
   font-weight: bold;
 }
 
-.childrenContainer--whats-header{
+.childrenContainer--whats-header {
   display: flex;
 }
 
-.link--instagramTitle{
-    display:block;
-    text-align:center;
-    text-decoration:none;
-    font-size:28px;
-    color:#3A3434;
-    margin:46px 0 27px;
+.link--instagramTitle {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+  color: #3A3434;
+  margin: 46px 0 27px;
 }
-.link--link-footer{
-    font-size:13px;
-    color:#3A3434;
-    text-decoration:none;
-    display:block;
-    margin-left: 10px;
+
+.link--link-footer {
+  font-size: 13px;
+  color: #3A3434;
+  text-decoration: none;
+  display: block;
+  margin-left: 10px;
 }
-.link--link-categorias{
+
+.link--link-categorias {
   text-decoration: none;
 }
 
-.link--whats-header{
+.link--whats-header {
   text-decoration: none;
 }
 
 /* MADU ONE  */
-.link--link-ver-mais{
+.link--link-ver-mais {
   text-decoration: none;
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.link--catalogo-download{
+.link--catalogo-download {
   text-decoration: none;
 }
 
 .label--catalogo-download,
-.label--link-ver-mais{
+.label--link-ver-mais {
   background-color: #153B64;
   font-family: "Montserrat";
   font-weight: 600;
@@ -62,44 +78,44 @@
   padding: 15PX;
 }
 
-.label--link-ver-mais:hover{
+.label--link-ver-mais:hover {
   background-color: #000;
   cursor: pointer;
 }
 
 /* RODAPÉ  */
-.label--link-footer{
+.label--link-footer {
   color: white;
   transition: color 0.3s ease;
 }
 
-.label--link-footer:hover{
+.label--link-footer:hover {
   color: grey;
   transition: color 0.3s ease;
 }
 
 /* CONTATO  */
-.link--link-contato{
+.link--link-contato {
   text-decoration: none;
 }
 
-.childrenContainer--link-contato{
+.childrenContainer--link-contato {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 /* MOBILE */
-@media screen and (max-width: 1024px){
-    .link--instagramTitle{
-        margin:21px 0 17px;
-    }
+@media screen and (max-width: 1024px) {
+  .link--instagramTitle {
+    margin: 21px 0 17px;
+  }
 
-    .childrenContainer--link-categorias{
-      border-bottom: 1px solid #DFDFDF;
-    }
+  .childrenContainer--link-categorias {
+    border-bottom: 1px solid #DFDFDF;
+  }
 
-    .childrenContainer--link-grupo-mfm{
-      margin-top: 20px;
-    }
+  .childrenContainer--link-grupo-mfm {
+    margin-top: 20px;
+  }
 }

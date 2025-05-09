@@ -1,4 +1,15 @@
 
+.container--sticky-header {
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.container--sticky-header.scrolled {
+  background: #f1f1f1; /* cinza */
+}
+
+
+
 .skuSelectorItem--selected :global(.absolute--fill) {
   background-color: aliceblue;
 }
