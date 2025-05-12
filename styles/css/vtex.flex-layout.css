@@ -1,12 +1,18 @@
-.flexRowContent--linha-de-baixo-cat-shop-by{
+.flexCol--coluna-texto-future {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.flexRowContent--linha-de-baixo-cat-shop-by {
   gap: 10px;
 }
 
-.flexRow--linha-de-baixo-cat-shop-by{
+.flexRow--linha-de-baixo-cat-shop-by {
   margin-top: 5px;
 }
 
-.flexCol--shop-by-categoria{
+.flexCol--shop-by-categoria {
   padding: 5px;
 }
 
@@ -17,7 +23,7 @@
   background-image: url(assets/artboard-edit-wide.webp);
   background-size: cover;
   background-position: center;
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
 }
 
 .flexRowContent--conteiner-compre-por-produto {

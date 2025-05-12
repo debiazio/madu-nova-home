@@ -6,6 +6,7 @@
       "flex-layout.row#third-session-nova-home",
       "flex-layout.row#four-session-nova-home",
       "flex-layout.row#five-session-nova-home", //compre por produto
+      "flex-layout.row#sexta-session-nova-home", //the future is mad
       // "responsive-layout.desktop#categorias",
       // "responsive-layout.mobile#categorias",
       "__fold__",
@@ -581,6 +582,58 @@
     "props": {
       "src": "assets/alimentos.webp",
       "blockClass": "image-shop-by"
+    }
+  },
+  // SESSAO FUTURE IS MAD
+  "flex-layout.row#sexta-session-nova-home":{
+    "props": {
+      "blockClass": "conteiner-future-is-mad"
+    },
+    "children": [
+      "flex-layout.col#texto-future-is-mad",
+      "flex-layout.col#image-future-is-mad"
+    ]
+  },
+  //  COLUNA DA ESQUERDA FUTURE IS MAD
+  "flex-layout.col#texto-future-is-mad":{
+    "props": {
+      "blockClass": "coluna-texto-future",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-future",
+      "rich-text#texto-future"
+    ]
+  },
+  "rich-text#titulo-future":{
+    "props": {
+      "blockClass": "titulo-future-is-now",
+      "text": "the future\n is **mad**\n about yo**u**",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+  "rich-text#texto-future":{
+    "props": {
+      "blockClass": "texto-future-is-now",
+      "text": "Milhões de combinações para criar Projetado para uso frequente e alto impacto, toda a nossa linha mobiliária possui durabilidade e resistência excepcionais.\n\n Na **MAD.U**, você matém seu mobiliário sempre novo, em caso de desgaste ou quebra acidental, substitua apenas as partes necessárias.\n\nEscolha sustentabilidade, escolha a liberdade de criar, escolha **MAD.U**.",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+  //  COLUNA DA DIREITA FUTURE IS MAD
+  "flex-layout.col#image-future-is-mad":{
+    "props": {
+      "blockClass": "coluna-imagem-future",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#imagem-future-is-mad"
+    ]
+  },
+  "image#imagem-future-is-mad":{
+    "props": {
+      "src": "assets/Carrinho-Explodido 2.webp"
     }
   },
 
