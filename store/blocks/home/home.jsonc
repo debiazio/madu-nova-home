@@ -5,9 +5,9 @@
       "flex-layout.row#second-session-nova-home",
       "flex-layout.row#third-session-nova-home",
       "flex-layout.row#four-session-nova-home",
-      "flex-layout.row#shop-by-category",
-      "responsive-layout.desktop#categorias",
-      "responsive-layout.mobile#categorias",
+      "flex-layout.row#five-session-nova-home", //compre por produto
+      // "responsive-layout.desktop#categorias",
+      // "responsive-layout.mobile#categorias",
       "__fold__",
       "flex-layout.row#madu-one",
       "flex-layout.row#madu-extra",
@@ -299,7 +299,27 @@
       "blockClass": "conteudo-power-meets"
     }
   },
-  // SHOP BY CATEGORY
+  // CONTAINER COMPRE POR PRODUTO OU CATEGORIA - DESKTOP
+  "flex-layout.row#five-session-nova-home": {
+    "props": {
+      "blockClass": "conteiner-compre-por-produto",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#texto-compre-por-produto",
+      "flex-layout.row#shop-by-category",
+      "rich-text#texto-compre-por-categoria",
+      "flex-layout.row#categorias-shop-by"
+    ]
+  },
+  "rich-text#texto-compre-por-produto": {
+    "props": {
+      "blockClass": "texto-compre-por-produto",
+      "text": "shop by product"
+    }
+  },
+  // SHOP BY produto - nova home
   "flex-layout.row#shop-by-category": {
     "props": {
       "blockClass": "compre-por-produto"
@@ -422,6 +442,150 @@
       "blockClass": "label-produtos"
     }
   },
+  "rich-text#texto-compre-por-categoria": {
+    "props": {
+      "blockClass": "texto-compre-por-produto",
+      "text": "shop by categories"
+    }
+  },
+  "flex-layout.row#categorias-shop-by": {
+    "props": {
+      "blockClass": "container-categorias-shop-by"
+    },
+    "children": [
+      "flex-layout.col#imagens1-categorias-shop-by",
+      "flex-layout.col#imagens2-categorias-shop-by"
+    ]
+  },
+  //shop by categories - coluna 1 esquerda
+  "flex-layout.col#imagens1-categorias-shop-by": {
+    "props": {
+      "blockClass": "shop-by-categoria"
+    },
+    "children": [
+      "link#multiuso",
+      "flex-layout.row#linha-de-baixo-cat-shop-by"
+    ]
+  },
+  "link#multiuso": {
+    "props": {
+      "href": "#"
+    },
+    "children": [
+      "image#multiuso"
+    ]
+  },
+  "image#multiuso": {
+    "props": {
+      "src": "assets/multiuso.webp",
+      "alt": "Categoria multiuso",
+      "blockClass": "image-shop-by"
+    }
+  },
+  "flex-layout.row#linha-de-baixo-cat-shop-by":{
+    "props": {
+      "blockClass": "linha-de-baixo-cat-shop-by"
+    },
+    "children": [
+      "link#beleza-shop-by",
+      "link#escritorio-shop-by"
+
+    ]
+  },
+  "link#beleza-shop-by":{
+    "props": {
+      "href": "BELEZA"
+    },
+    "children": [
+      "image#beleza-shop-by"
+    ]
+  },
+  "image#beleza-shop-by":{
+    "props": {
+      "blockClass": "image-shop-by",
+      "src": "assets/beleza.webp"
+    }
+  },
+  "link#escritorio-shop-by":{
+    "props": {
+      "href": "ESCRITORIO"
+    },
+    "children": [
+      "image#escritorio-shop-by"
+    ]
+  },
+
+  "image#escritorio-shop-by":{
+    "props": {
+      "blockClass": "image-shop-by",
+      "src": "assets/escritorio.webp"
+    }
+  },
+
+  //shop by categories - coluna 2 direita
+  "flex-layout.col#imagens2-categorias-shop-by": {
+    "props": {
+      "blockClass": "shop-by-categoria"
+    },
+    "children": [
+      "link#saude",
+      "flex-layout.row#linha-de-baixo-direita-cat-shop-by"
+    ]
+  },
+  "link#saude": {
+    "props": {
+      "href": "#"
+    },
+    "children": [
+      "image#saude"
+    ]
+  },
+  "image#saude": {
+    "props": {
+      "src": "assets/saude.webp",
+      "alt": "Categoria saúde"
+    }
+  },
+  "flex-layout.row#linha-de-baixo-direita-cat-shop-by":{
+    "props": {
+      "blockClass": "linha-de-baixo-cat-shop-by"
+    },
+    "children": [
+      "link#hotelaria-shop-by",
+      "link#alimentos-shop-by"
+    ]
+  },
+  "link#hotelaria-shop-by":{
+    "props": {
+      "href": "alimentos"
+    },
+    "children": [
+      "image#hotelaria-shop-by"
+    ]
+  },
+  "image#hotelaria-shop-by":{
+    "props": {
+      "src": "assets/hotelaria.webp",
+      "blockClass": "image-shop-by"
+    }
+  },
+  "link#alimentos-shop-by":{
+    "props": {
+      "href": "alimentos"
+    },
+    "children": [
+      "image#alimentos-shop-by"
+    ]
+  },
+  "image#alimentos-shop-by":{
+    "props": {
+      "src": "assets/alimentos.webp",
+      "blockClass": "image-shop-by"
+    }
+  },
+
+
+
   "flex-layout.row#change-constant": {
     "props": {
       "blockClass": "linha-change-constant",

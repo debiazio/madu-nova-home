@@ -1,10 +1,12 @@
-.container--sticky-header{
+/* .container--sticky-header{
     background:transparent;
 }
 
+ */
 
-
-
+.wrapper--sticky-header--stuck{
+  background-color: brown;
+}
 
 /* .wrapper--sticky-header{
   display: flex;

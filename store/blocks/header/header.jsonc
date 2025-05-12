@@ -25,6 +25,7 @@
   "header-layout.desktop": {
     "children": [
       "bannerroll",
+      "stiky",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
     ]
