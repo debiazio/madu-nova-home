@@ -7,6 +7,7 @@
       "flex-layout.row#four-session-nova-home",
       "flex-layout.row#five-session-nova-home", //compre por produto
       "flex-layout.row#sexta-session-nova-home", //the future is mad
+      "flex-layout.row#setima-session-nova-home", //furniture
       // "responsive-layout.desktop#categorias",
       // "responsive-layout.mobile#categorias",
       "__fold__",
@@ -483,17 +484,16 @@
       "blockClass": "image-shop-by"
     }
   },
-  "flex-layout.row#linha-de-baixo-cat-shop-by":{
+  "flex-layout.row#linha-de-baixo-cat-shop-by": {
     "props": {
       "blockClass": "linha-de-baixo-cat-shop-by"
     },
     "children": [
       "link#beleza-shop-by",
       "link#escritorio-shop-by"
-
     ]
   },
-  "link#beleza-shop-by":{
+  "link#beleza-shop-by": {
     "props": {
       "href": "BELEZA"
     },
@@ -501,13 +501,13 @@
       "image#beleza-shop-by"
     ]
   },
-  "image#beleza-shop-by":{
+  "image#beleza-shop-by": {
     "props": {
       "blockClass": "image-shop-by",
       "src": "assets/beleza.webp"
     }
   },
-  "link#escritorio-shop-by":{
+  "link#escritorio-shop-by": {
     "props": {
       "href": "ESCRITORIO"
     },
@@ -515,14 +515,12 @@
       "image#escritorio-shop-by"
     ]
   },
-
-  "image#escritorio-shop-by":{
+  "image#escritorio-shop-by": {
     "props": {
       "blockClass": "image-shop-by",
       "src": "assets/escritorio.webp"
     }
   },
-
   //shop by categories - coluna 2 direita
   "flex-layout.col#imagens2-categorias-shop-by": {
     "props": {
@@ -547,7 +545,7 @@
       "alt": "Categoria saúde"
     }
   },
-  "flex-layout.row#linha-de-baixo-direita-cat-shop-by":{
+  "flex-layout.row#linha-de-baixo-direita-cat-shop-by": {
     "props": {
       "blockClass": "linha-de-baixo-cat-shop-by"
     },
@@ -556,7 +554,7 @@
       "link#alimentos-shop-by"
     ]
   },
-  "link#hotelaria-shop-by":{
+  "link#hotelaria-shop-by": {
     "props": {
       "href": "alimentos"
     },
@@ -564,13 +562,13 @@
       "image#hotelaria-shop-by"
     ]
   },
-  "image#hotelaria-shop-by":{
+  "image#hotelaria-shop-by": {
     "props": {
       "src": "assets/hotelaria.webp",
       "blockClass": "image-shop-by"
     }
   },
-  "link#alimentos-shop-by":{
+  "link#alimentos-shop-by": {
     "props": {
       "href": "alimentos"
     },
@@ -578,14 +576,14 @@
       "image#alimentos-shop-by"
     ]
   },
-  "image#alimentos-shop-by":{
+  "image#alimentos-shop-by": {
     "props": {
       "src": "assets/alimentos.webp",
       "blockClass": "image-shop-by"
     }
   },
   // SESSAO FUTURE IS MAD
-  "flex-layout.row#sexta-session-nova-home":{
+  "flex-layout.row#sexta-session-nova-home": {
     "props": {
       "blockClass": "conteiner-future-is-mad"
     },
@@ -595,17 +593,18 @@
     ]
   },
   //  COLUNA DA ESQUERDA FUTURE IS MAD
-  "flex-layout.col#texto-future-is-mad":{
+  "flex-layout.col#texto-future-is-mad": {
     "props": {
       "blockClass": "coluna-texto-future",
       "preventVerticalStretch": true
     },
     "children": [
       "rich-text#titulo-future",
-      "rich-text#texto-future"
+      "rich-text#texto-future",
+      "rich-text#reticencias"
     ]
   },
-  "rich-text#titulo-future":{
+  "rich-text#titulo-future": {
     "props": {
       "blockClass": "titulo-future-is-now",
       "text": "the future\n is **mad**\n about yo**u**",
@@ -613,7 +612,7 @@
       "textPosition": "RIGHT"
     }
   },
-  "rich-text#texto-future":{
+  "rich-text#texto-future": {
     "props": {
       "blockClass": "texto-future-is-now",
       "text": "Milhões de combinações para criar Projetado para uso frequente e alto impacto, toda a nossa linha mobiliária possui durabilidade e resistência excepcionais.\n\n Na **MAD.U**, você matém seu mobiliário sempre novo, em caso de desgaste ou quebra acidental, substitua apenas as partes necessárias.\n\nEscolha sustentabilidade, escolha a liberdade de criar, escolha **MAD.U**.",
@@ -621,8 +620,16 @@
       "textPosition": "RIGHT"
     }
   },
+  "rich-text#reticencias": {
+    "props": {
+      "blockClass": "reti-future-is-now",
+      "text": "**...**",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
   //  COLUNA DA DIREITA FUTURE IS MAD
-  "flex-layout.col#image-future-is-mad":{
+  "flex-layout.col#image-future-is-mad": {
     "props": {
       "blockClass": "coluna-imagem-future",
       "preventVerticalStretch": true
@@ -631,13 +638,63 @@
       "image#imagem-future-is-mad"
     ]
   },
-  "image#imagem-future-is-mad":{
+  "image#imagem-future-is-mad": {
     "props": {
       "src": "assets/Carrinho-Explodido 2.webp"
     }
   },
-
-
+  // SESSÃO FURNITURE
+  "flex-layout.row#setima-session-nova-home": {
+    "props": {
+      "blockClass": "container-furniture"
+    },
+    "children": [
+      "flex-layout.col#texto-furniture",
+      "flex-layout.col#imagem-furniture"
+    ]
+  },
+  // COLUNA ESQUERDA FURNITURE
+  "flex-layout.col#texto-furniture": {
+    "props": {
+      "blockClass": "coluna-texto-future",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-furniture",
+      "rich-text#texto-furniture"
+    ]
+  },
+  "rich-text#titulo-furniture": {
+    "props": {
+      "blockClass": "titulo-furniture",
+      "text": "let your **furniture** reflect your **brand**",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+  "rich-text#texto-furniture": {
+    "props": {
+      "blockClass": "texto-furniture",
+      "text": "Imprima sua marca, reflita sua personalidade e identidade no mobiliário MAD.U.\nIncorpore a originalidade da sua escolha e deixe o mobiliário expressar o estilo próprio.\nAdicione QR Code ou grave em serigrafia a logo da sua empresa.\n **···**",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+  // COLUNA DA DIREITA FURNITURE
+  "flex-layout.col#imagem-furniture":{
+    "props": {
+      "blockClass": "coluna-imagem-future",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#image-furniture"
+    ]
+  },
+  "image#image-furniture":{
+    "props": {
+      "src": "assets/carrinho-azul.webp"
+    }
+  },
 
   "flex-layout.row#change-constant": {
     "props": {

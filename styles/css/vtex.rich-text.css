@@ -1,3 +1,19 @@
+.strong--titulo-furniture,
+.strong--texto-furniture{
+  color: #FF9D33;
+}
+
+.wrapper--reti-future-is-now{
+      color: #FFC200;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.paragraph--texto-future-is-now{
+  margin: 0;
+}
+
 .paragraph--texto-compre-por-produto {
   text-transform: uppercase;
   font-size: 80px;
@@ -19,14 +35,19 @@
 .paragraph--conteudo-change-constant,
 .paragraph--subtitulo-change-constant,
 .wrapper--conteudo-power-meets,
-.wrapper--conteudo-change-constant {
+.wrapper--texto-future-is-now,
+.paragraph--texto-future-is-now,
+.wrapper--texto-furniture,
+.paragraph--texto-furniture {
   max-width: 450px !important;
 }
 
 
 .paragraph--titulo-we-dare,
 .paragraph--titulo-power-meets,
-.paragraph--titulo-change-constant {
+.paragraph--titulo-change-constant,
+.paragraph--titulo-future-is-now,
+.paragraph--titulo-furniture {
   font-size: 60px;
   font-weight: bold;
   color: #767676;
@@ -36,8 +57,14 @@
 
 .paragraph--subtitulo-texto-we-dare,
 .paragraph--subtitulo-power-meets,
-.paragraph--subtitulo-change-constant {
+.paragraph--subtitulo-change-constant,
+.paragraph--titulo-future-is-now,
+.paragraph--titulo-furniture {
   text-transform: uppercase;
+}
+
+.strong--titulo-future-is-now{
+  color: #FFC200;
 }
 
 .strong--titulo-we-dare {
@@ -63,7 +90,9 @@
 
 .wrapper--conteudo-we-dare,
 .wrapper--conteudo-change-constant,
-.wrapper--conteudo-power-meets {
+.wrapper--conteudo-power-meets,
+.wrapper--texto-future-is-now,
+.wrapper--texto-furniture {
   font-size: 22px;
   color: #767676;
   font-weight: 400;

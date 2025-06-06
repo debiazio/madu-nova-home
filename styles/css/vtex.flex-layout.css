@@ -1,7 +1,21 @@
+.flexRow--conteiner-future-is-mad{
+  margin-top: 50px;
+}
+
+.flexCol--coluna-imagem-future {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRowContent--conteiner-future-is-mad {
+  gap: 50px;
+}
+
 .flexCol--coluna-texto-future {
   display: flex;
   justify-content: center;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 .flexRowContent--linha-de-baixo-cat-shop-by {
