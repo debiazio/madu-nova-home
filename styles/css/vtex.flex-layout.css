@@ -1,3 +1,18 @@
+.flexRow--container-novo-footer{
+  background-color: red;
+}
+
+.flexRow--linha-colorida{
+  height: 30px;
+  background: linear-gradient(to right, #FF3ED1, #00DEFC, #F5C242);
+
+}
+
+.flexRow--container-furniture{
+  background-color: white;
+  padding-top: 50px;
+}
+
 .flexRow--conteiner-future-is-mad{
   margin-top: 50px;
 }

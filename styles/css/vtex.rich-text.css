@@ -1,16 +1,23 @@
 .strong--titulo-furniture,
-.strong--texto-furniture{
+.strong--texto-furniture {
   color: #FF9D33;
+
 }
 
-.wrapper--reti-future-is-now{
-      color: #FFC200;
-    font-size: 48px;
-    font-weight: bold;
-    letter-spacing: 10px;
+.strong--texto-furniture {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
 
-.paragraph--texto-future-is-now{
+.wrapper--reti-future-is-now {
+  color: #FFC200;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.paragraph--texto-future-is-now {
   margin: 0;
 }
 
@@ -63,7 +70,7 @@
   text-transform: uppercase;
 }
 
-.strong--titulo-future-is-now{
+.strong--titulo-future-is-now {
   color: #FFC200;
 }
 

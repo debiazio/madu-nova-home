@@ -11,14 +11,15 @@
       // "responsive-layout.desktop#categorias",
       // "responsive-layout.mobile#categorias",
       "__fold__",
-      "flex-layout.row#madu-one",
-      "flex-layout.row#madu-extra",
-      "flex-layout.row#combinam",
-      "flex-layout.row#shelf-final",
-      "flex-layout.row#shelf-final-1",
-      "flex-layout.row#shelf-final-2",
-      "flex-layout.row#ver-mais-final",
-      "flex-layout.row#banner-final"
+      "flex-layout.row#linha-colorida"
+      // "flex-layout.row#madu-one",
+      // "flex-layout.row#madu-extra",
+      // "flex-layout.row#combinam",
+      // "flex-layout.row#shelf-final",
+      // "flex-layout.row#shelf-final-1",
+      // "flex-layout.row#shelf-final-2",
+      // "flex-layout.row#ver-mais-final",
+      // "flex-layout.row#banner-final"
     ],
     "parent": {
       "header": "header"
@@ -768,6 +769,17 @@
       "blockClass": "botao-know-modules"
     }
   },
+// LINHA COLORIDA
+"flex-layout.row#linha-colorida":{
+  "props": {
+    "fullWidth": true,
+    "blockClass": "linha-colorida"
+  }
+},
+
+
+
+
   "responsive-layout.desktop#categorias": {
     "children": [
       "flex-layout.row#categorias"
